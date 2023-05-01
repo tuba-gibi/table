@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Clarusway Kayıt Sözleşmesi</h1>
+    <form action="./result.html">
+        <fieldset>
+            <legend>Sözleşme Onay</legend>
+            <br>
+            <input type="checkbox" name="onay" id="onay" value="Confirmed!">
+            <label for="onay">I confirm all the information below.</label>
+            <br>
+            <input type="submit" value="Save the form">
+            <input type="reset" value="Clear the form">
+        </fieldset>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="sid">Form Sec ID</label>
+                        </td>
+                        <td>
+                            <input type="text"
+                            name="sid"
+                            id="sid"
+                            placeholder="Your security ID ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your name ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="surn">Surname</label>
+                        </td>
+                        <td>
+                            <input type="text"
+                            name="surn"
+                            id="surn"
+                            placeholder="Your surname ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="age">Age</label>
+                        </td>
+                        <td>
+                            <input type="number"
+                            name="age"
+                            id="age"
+                            placeholder="Your age ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mail">E-mail</label>
+                        </td>
+                        <td>
+                            <input type="email"
+                            name="mail"
+                            id="mail"
+                            required
+                            placeholder="Your E-mail adress">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="photo">Your Photo</label>
+                        </td>
+                        <td>
+                            <input type="file"
+                            name="photo"
+                            id="photo"
+                            required
+                            placeholder="Upload your photo">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Other</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Professional Experiments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                        <label for="ent">Date of the beginning</label>
+                        </td>
+                        <td>
+                        <input type="date" name="ent" id="ent">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="exp">Professional Experiment</label>
+                        </td>
+                        <td>
+                           <input type="radio" name="experiment" id="1" value="1-5 years"> <label for="1">1-5 years</label><br>
+                           <input type="radio" name="experiment" id="2" value="6-10 years"> <label for="2">6-10 years</label><br>
+                           <input type="radio" name="experiment" id="3" value="11-15 years"> <label for="3">11-15 years</label><br>
+                           <input type="radio" name="experiment" id="4" value="16 and more years"> <label for="4">16 and more years</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lang">Coding Languages</label>
+                        </td>
+                        <td>
+                            <select name="lang" id="lang">
+                                <option value="C#">C#</option>
+                                <option value="JavaScript">JavaScript</option>
+                                <option value="Java">Java</option>
+                                <option value="Python">Python</option>
+                                <option value="Django">Django</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Copy of the </legend>
+            <textarea name="" id="" cols="60" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quibusdam praesentium delectus voluptatum magni veniam nulla odit iste fuga eligendi deleniti alias tempora perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. A quod ex, et similique corrupti at facere, dicta omnis eius, sapiente pariatur. Molestiae, magni, porro ipsa hic quam doloremque reiciendis facere culpa illo enim odit dolorem possimus consequuntur dolorum saepe! Optio aut quo iusto velit facere suscipit, quaerat eius eaque odio reiciendis eum possimus ex deserunt? </textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Mail List</legend>
+            <label for="">I want to join the mail list</label><input type="radio" name="join" id=""><br>
+        
+            <label for="">I don't want to join the mail list</label><input type="radio" name="join" id="">
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
