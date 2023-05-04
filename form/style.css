@@ -1,3 +1,11 @@
+body{
+    color: rgb(244, 245, 246);
+
+}
+h1{
+    color: darkgreen;
+    text-align: center;
+}
 .first{
     background-color: tomato;
     opacity: .8;
@@ -9,4 +17,27 @@
     opacity: 1;
     font-weight: bolder;
 
+}
+fieldset{
+    width: 30em;
+    background-color: #94a943;
+    margin: 10px auto;
+}
+legend{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin : 3px auto;
+}
+/* table{
+    width: 100%;
+} */
+table input{ 
+    border-radius: 5px;
+    background-color: rgba(229, 241, 229, 0.933);
+    width: 100%;
+
+}
+textarea{
+    text-align: center;
 }
